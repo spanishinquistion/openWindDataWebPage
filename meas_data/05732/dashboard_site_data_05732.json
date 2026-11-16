@@ -1,0 +1,59 @@
+var owd_email = "info@openwinddata.com"
+
+var site_data = {} 
+site_data.number = "05732";
+site_data.site = "Wrixum/Föhr";
+site_data.land = "Schleswig-Holstein";
+site_data.map_site = "<object type=\"text/html\" class=\"site_map\" data=\"../../miniMaps/dashboard_map_05732.html\")></object>";
+site_data.rank = "<script>document.write(data_check.s05732[1]);<\/script>";
+site_data.years = "35.6";
+site_data.years10min = "0";
+site_data.last = "1971-07-31";
+site_data.last_update = "2026-11-07";
+site_data.c_p = "35.65";
+site_data.v_ave = "6.3";
+site_data.prevailing_wind_dir = "0";
+site_data.lat = "54.6875";
+site_data.lon = "8.569";
+site_data.gmap_link = "http://www.google.com/maps/place/54.6875,8.569";
+
+var meas_height = {} 
+meas_height.year_start = ["01/1936"]
+meas_height.year_end = ["07/1971"]
+meas_height.h_m = [10.0]
+
+var base_production = {} 
+base_production.turbine = ["S", "M", "L"]
+base_production.c_p = [25.72, 32.35, 35.65]
+base_production.AEP = ["22,528", "4,250,521", "10,804,091"]
+base_production.P_R = [10, 1500, 3460]
+
+var base_v_ave = {} 
+base_v_ave.type = "base_"
+base_v_ave.turbine = ["S", "M", "L"]
+base_v_ave.h_h = [30, 80, 100]
+base_v_ave.year = [1936, 1937, 1938, 1939, 1940, 1941, 1942, 1943, 1944, 1945, 1946, 1947, 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970, 1971]
+base_v_ave.h_m = [6.18, 5.83, 6.83, NaN, 6.06, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, 6.67, 6.32, 6.27, 4.91, 5.97, 6.58, 5.88, 7.05, 6.74, 6.55, 6.46, 6.59, 6.74, 6.85, 5.89, 6.09, 6.01, 6.3, 6.99, 6.17, 6.07, 6.21, 5.45]
+base_v_ave.S = [7.46, 7.03, 8.25, NaN, 7.32, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, 8.06, 7.63, 7.56, 5.92, 7.21, 7.94, 7.09, 8.51, 8.13, 7.9, 7.8, 7.95, 8.14, 8.27, 7.11, 7.36, 7.26, 7.61, 8.44, 7.45, 7.33, 7.49, 6.59]
+base_v_ave.M = [8.6, 8.11, 9.52, NaN, 8.44, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, 9.29, 8.8, 8.72, 6.83, 8.32, 9.16, 8.18, 9.82, 9.38, 9.12, 9.0, 9.17, 9.39, 9.54, 8.2, 8.49, 8.37, 8.77, 9.73, 8.6, 8.46, 8.64, 7.6]
+base_v_ave.L = [8.86, 8.36, 9.81, NaN, 8.7, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, 9.57, 9.07, 8.99, 7.04, 8.57, 9.44, 8.43, 10.11, 9.66, 9.39, 9.27, 9.45, 9.67, 9.82, 8.44, 8.74, 8.63, 9.04, 10.03, 8.86, 8.71, 8.9, 7.83]
+
+var wind_rose_data_m0 = {} 
+wind_rose_data_m0.month = 0 
+wind_rose_data_m0.max_p = 0.0
+wind_rose_data_m0.data = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+var base_pdf_data = {} 
+base_pdf_data = {} 
+base_pdf_data.data = [2.17, 4.46, 6.54, 8.2, 9.34, 9.9, 9.89, 9.4, 8.53, 7.42, 6.2, 4.98, 3.86, 2.88, 2.08, 1.45, 0.97, 0.63, 0.4, 0.24, 0.14, 0.08, 0.04, 0.02]
+base_pdf_data.V_range = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+base_pdf_data.pdf_mask = false
+base_pdf_data.font_1 = 18
+
+var base_data_quality = {} 
+base_data_quality.type = "base_"
+base_data_quality.years = [1936, 1937, 1938, 1940, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970]
+base_data_quality.quality = [100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0]
+base_data_quality.ymin = 100.0
+
+var last_check = "2026-11-07" 

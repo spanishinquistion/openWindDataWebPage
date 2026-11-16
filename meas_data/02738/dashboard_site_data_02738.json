@@ -1,0 +1,59 @@
+var owd_email = "info@openwinddata.com"
+
+var site_data = {} 
+site_data.number = "02738";
+site_data.site = "Kreuth";
+site_data.land = "Bayern";
+site_data.map_site = "<object type=\"text/html\" class=\"site_map\" data=\"../../miniMaps/dashboard_map_02738.html\")></object>";
+site_data.rank = "<script>document.write(data_check.s02738[1]);<\/script>";
+site_data.years = "0.1";
+site_data.years10min = "5.1";
+site_data.last = "1998-01-31";
+site_data.last_update = "2026-11-07";
+site_data.c_p = "2.07";
+site_data.v_ave = "1.64";
+site_data.prevailing_wind_dir = "S";
+site_data.lat = "47.6405";
+site_data.lon = "11.7485";
+site_data.gmap_link = "http://www.google.com/maps/place/47.6405,11.7485";
+
+var meas_height = {} 
+meas_height.year_start = ["01/1998"]
+meas_height.year_end = ["03/1998"]
+meas_height.h_m = [10.0]
+
+var base_production = {} 
+base_production.turbine = ["S", "M", "L"]
+base_production.c_p = [1.21, 1.88, 2.07]
+base_production.AEP = ["1,062", "246,612", "627,078"]
+base_production.P_R = [10, 1500, 3460]
+
+var base_v_ave = {} 
+base_v_ave.type = "base_"
+base_v_ave.turbine = ["S", "M", "L"]
+base_v_ave.h_h = [30, 80, 100]
+base_v_ave.year = [1998]
+base_v_ave.h_m = [1.64]
+base_v_ave.S = [1.98]
+base_v_ave.M = [2.29]
+base_v_ave.L = [2.36]
+
+var wind_rose_data_m0 = {} 
+wind_rose_data_m0.month = 0 
+wind_rose_data_m0.max_p = 31.0
+wind_rose_data_m0.data = [5.38, 2.55, 1.98, 2.83, 3.26, 2.97, 3.54, 7.79, 30.31, 19.69, 6.23, 2.55, 2.69, 3.68, 4.53]
+
+var base_pdf_data = {} 
+base_pdf_data = {} 
+base_pdf_data.data = [28.25, 19.38, 12.79, 8.28, 5.29, 3.34, 2.1, 1.31, 0.81, 0.5, 0.31, 0.19, 0.11, 0.07, 0.04, 0.03, 0.02, 0.01, 0.01, 0.0, 0.0, 0.0, 0.0, 0.0]
+base_pdf_data.V_range = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+base_pdf_data.pdf_mask = false
+base_pdf_data.font_1 = 18
+
+var base_data_quality = {} 
+base_data_quality.type = "base_"
+base_data_quality.years = []
+base_data_quality.quality = []
+base_data_quality.ymin = "N/A"
+
+var last_check = "2026-11-07" 

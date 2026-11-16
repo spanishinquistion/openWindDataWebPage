@@ -1,0 +1,59 @@
+var owd_email = "info@openwinddata.com"
+
+var site_data = {} 
+site_data.number = "13674";
+site_data.site = "Waibstadt";
+site_data.land = "Baden-Württemberg";
+site_data.map_site = "<object type=\"text/html\" class=\"site_map\" data=\"../../miniMaps/dashboard_map_13674.html\")></object>";
+site_data.rank = "<script>document.write(data_check.s13674[1]);<\/script>";
+site_data.years = "19.3";
+site_data.years10min = "16.3";
+site_data.last = "2026-11-06";
+site_data.last_update = "2026-11-07";
+site_data.c_p = "6.06";
+site_data.v_ave = "2.91";
+site_data.prevailing_wind_dir = "ENE";
+site_data.lat = "49.2943";
+site_data.lon = "8.9053";
+site_data.gmap_link = "http://www.google.com/maps/place/49.2943,8.9053";
+
+var meas_height = {} 
+meas_height.year_start = ["08/2007", "07/2019", "06/2021"]
+meas_height.year_end = ["06/2019", "06/2021", "11/2026"]
+meas_height.h_m = [10.0, 10.0, 10.0]
+
+var base_production = {} 
+base_production.turbine = ["S", "M", "L"]
+base_production.c_p = [3.61, 5.32, 6.06]
+base_production.AEP = ["3,159", "698,967", "1,837,798"]
+base_production.P_R = [10, 1500, 3460]
+
+var base_v_ave = {} 
+base_v_ave.type = "base_"
+base_v_ave.turbine = ["S", "M", "L"]
+base_v_ave.h_h = [30, 80, 100]
+base_v_ave.year = [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
+base_v_ave.h_m = [2.69, 2.98, 2.73, 2.95, 3.08, 3.07, 3.02, 2.77, 2.99, 2.85, 3.04, 2.99, 2.98, 2.98, 2.7, 2.83, 3.16, 2.89, 2.68, 2.71]
+base_v_ave.S = [3.25, 3.59, 3.3, 3.56, 3.72, 3.71, 3.65, 3.35, 3.61, 3.44, 3.67, 3.61, 3.6, 3.6, 3.26, 3.42, 3.82, 3.49, 3.24, 3.27]
+base_v_ave.M = [3.75, 4.15, 3.81, 4.11, 4.29, 4.28, 4.2, 3.86, 4.17, 3.97, 4.23, 4.16, 4.15, 4.16, 3.76, 3.95, 4.41, 4.03, 3.74, 3.77]
+base_v_ave.L = [3.86, 4.27, 3.92, 4.23, 4.42, 4.41, 4.33, 3.98, 4.29, 4.09, 4.36, 4.29, 4.28, 4.28, 3.87, 4.07, 4.54, 4.15, 3.85, 3.89]
+
+var wind_rose_data_m0 = {} 
+wind_rose_data_m0.month = 0 
+wind_rose_data_m0.max_p = 18.0
+wind_rose_data_m0.data = [1.98, 2.38, 6.95, 17.97, 15.0, 2.19, 1.51, 1.54, 2.64, 4.9, 14.41, 13.27, 8.78, 3.51, 2.97]
+
+var base_pdf_data = {} 
+base_pdf_data = {} 
+base_pdf_data.data = [13.14, 17.22, 17.31, 15.09, 11.89, 8.63, 5.85, 3.72, 2.24, 1.28, 0.69, 0.36, 0.18, 0.08, 0.04, 0.02, 0.01, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+base_pdf_data.V_range = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+base_pdf_data.pdf_mask = false
+base_pdf_data.font_1 = 18
+
+var base_data_quality = {} 
+base_data_quality.type = "base_"
+base_data_quality.years = [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
+base_data_quality.quality = [100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 99.93, 100.0, 100.0, 99.97, 100.0, 99.98, 100.0, 100.0, 100.0, 100.0, 100.0, 99.85]
+base_data_quality.ymin = 99.85
+
+var last_check = "2026-11-07" 

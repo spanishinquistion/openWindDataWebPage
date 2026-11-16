@@ -1,0 +1,120 @@
+var owd_email = "info@openwinddata.com"
+
+var site_data = {} 
+site_data.number = "01832";
+site_data.site = "Großer Arber";
+site_data.land = "Bayern";
+site_data.map_site = "<object type=\"text/html\" class=\"site_map\" data=\"../../miniMaps/dashboard_map_01832.html\")></object>";
+site_data.rank = "<script>document.write(data_check.s01832[1]);<\/script>";
+site_data.years = "28.7";
+site_data.years10min = "28.7";
+site_data.last = "2026-11-06";
+site_data.last_update = "2026-11-07";
+site_data.c_p = "35.13";
+site_data.v_ave = "6.69";
+site_data.data_quality_0 = "97.18";
+site_data.prevailing_wind_dir = "W";
+site_data.lat = "49.1131";
+site_data.lon = "13.1359";
+site_data.gmap_link = "http://www.google.com/maps/place/49.1131,13.1359";
+
+var meas_height = {} 
+meas_height.year_start = ["11/1982", "06/2005", "11/2010", "09/2018", "08/2019", "07/2025"]
+meas_height.year_end = ["08/2004", "11/2010", "09/2018", "08/2019", "07/2025", "11/2026"]
+meas_height.h_m = [10.0, 15.0, 15.0, 15.0, 15.0, 15.0]
+
+var hi_res_production = {} 
+hi_res_production.turbine = ["S", "M", "L"]
+hi_res_production.c_p = [26.45, 32.25, 35.13]
+hi_res_production.AEP = ["23,166", "4,237,362", "10,648,753"]
+hi_res_production.P_R = [10, 1500, 3460]
+
+var hi_res_v_ave = {} 
+hi_res_v_ave.type = "hi_res_"
+hi_res_v_ave.turbine = ["S", "M", "L"]
+hi_res_v_ave.h_h = [30, 80, 100]
+hi_res_v_ave.year = [1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
+hi_res_v_ave.h_m = [7.72, 6.83, 6.83, 7.01, 7.02, 6.65, 7.34, 6.6, 7.0, 7.6, 7.32, 6.99, 6.27, 6.33, 6.64, 6.25, 6.02, 6.46, 6.12, 7.08, 6.22, 6.88, 6.6, 6.29, 6.49, 7.23, 6.74, 5.86, 5.72]
+hi_res_v_ave.S = [9.32, 8.25, 8.24, 8.47, 8.48, 8.03, 8.63, 7.4, 7.85, 8.52, 8.21, 7.84, 7.04, 7.1, 7.45, 7.01, 6.75, 7.25, 6.86, 7.95, 6.97, 7.71, 7.4, 7.05, 7.28, 8.11, 7.55, 6.58, 6.41]
+hi_res_v_ave.M = [10.75, 9.51, 9.51, 9.77, 9.78, 9.26, 9.96, 8.54, 9.06, 9.83, 9.47, 9.04, 8.12, 8.19, 8.59, 8.09, 7.78, 8.36, 7.91, 9.16, 8.04, 8.9, 8.53, 8.14, 8.39, 9.35, 8.71, 7.59, 7.39]
+hi_res_v_ave.L = [11.07, 9.8, 9.79, 10.06, 10.07, 9.54, 10.26, 8.79, 9.33, 10.12, 9.75, 9.32, 8.36, 8.44, 8.85, 8.33, 8.02, 8.62, 8.15, 9.44, 8.29, 9.16, 8.79, 8.38, 8.65, 9.64, 8.98, 7.82, 7.62]
+
+var wind_rose_data_m0 = {} 
+wind_rose_data_m0.month = 0 
+wind_rose_data_m0.max_p = 13.0
+wind_rose_data_m0.data = [3.82, 3.83, 4.32, 3.39, 4.85, 4.11, 5.22, 4.59, 8.93, 9.27, 12.03, 11.0, 12.75, 6.52, 5.37]
+var wind_rose_data_m1 = {} 
+wind_rose_data_m1.month = 1 
+wind_rose_data_m1.max_p = 16.0
+wind_rose_data_m1.data = [3.17, 2.89, 2.94, 2.43, 4.06, 4.23, 4.55, 3.53, 7.78, 9.63, 15.36, 14.31, 15.38, 6.05, 3.71]
+var wind_rose_data_m2 = {} 
+wind_rose_data_m2.month = 2 
+wind_rose_data_m2.max_p = 16.0
+wind_rose_data_m2.data = [3.3, 2.86, 4.47, 3.53, 4.48, 3.77, 4.64, 4.32, 8.32, 9.4, 13.22, 13.29, 13.41, 6.74, 4.24]
+var wind_rose_data_m3 = {} 
+wind_rose_data_m3.month = 3 
+wind_rose_data_m3.max_p = 16.0
+wind_rose_data_m3.data = [3.86, 4.34, 5.42, 4.17, 5.06, 4.1, 5.13, 4.07, 7.28, 8.7, 12.84, 10.68, 11.97, 6.98, 5.4]
+var wind_rose_data_m4 = {} 
+wind_rose_data_m4.month = 4 
+wind_rose_data_m4.max_p = 16.0
+wind_rose_data_m4.data = [5.03, 5.98, 6.02, 5.46, 6.81, 4.3, 6.07, 5.43, 8.23, 7.6, 9.16, 7.1, 10.96, 5.66, 6.18]
+var wind_rose_data_m5 = {} 
+wind_rose_data_m5.month = 5 
+wind_rose_data_m5.max_p = 16.0
+wind_rose_data_m5.data = [4.76, 5.66, 6.84, 4.54, 6.22, 4.73, 5.66, 4.39, 7.84, 7.8, 8.84, 8.07, 11.37, 6.49, 6.8]
+var wind_rose_data_m6 = {} 
+wind_rose_data_m6.month = 6 
+wind_rose_data_m6.max_p = 16.0
+wind_rose_data_m6.data = [5.39, 5.32, 5.29, 3.65, 4.38, 3.13, 3.65, 3.76, 8.77, 8.74, 10.54, 9.15, 12.5, 8.14, 7.59]
+var wind_rose_data_m7 = {} 
+wind_rose_data_m7.month = 7 
+wind_rose_data_m7.max_p = 16.0
+wind_rose_data_m7.data = [3.93, 4.08, 3.87, 2.58, 3.64, 2.94, 3.33, 3.2, 8.72, 8.36, 11.79, 12.19, 15.39, 8.34, 7.63]
+var wind_rose_data_m8 = {} 
+wind_rose_data_m8.month = 8 
+wind_rose_data_m8.max_p = 16.0
+wind_rose_data_m8.data = [4.61, 3.44, 4.04, 3.33, 4.75, 3.7, 4.46, 3.97, 10.23, 9.35, 12.1, 11.91, 12.43, 6.05, 5.63]
+var wind_rose_data_m9 = {} 
+wind_rose_data_m9.month = 9 
+wind_rose_data_m9.max_p = 16.0
+wind_rose_data_m9.data = [4.09, 4.27, 4.8, 4.12, 5.63, 5.59, 5.87, 4.73, 8.4, 8.37, 10.51, 9.83, 11.7, 6.1, 6.0]
+var wind_rose_data_m10 = {} 
+wind_rose_data_m10.month = 10 
+wind_rose_data_m10.max_p = 16.0
+wind_rose_data_m10.data = [2.44, 2.79, 2.79, 2.68, 4.78, 4.35, 6.81, 6.63, 10.87, 10.84, 12.46, 10.97, 12.24, 5.64, 3.7]
+var wind_rose_data_m11 = {} 
+wind_rose_data_m11.month = 11 
+wind_rose_data_m11.max_p = 16.0
+wind_rose_data_m11.data = [1.76, 2.05, 2.87, 2.37, 4.55, 4.56, 7.57, 6.79, 11.68, 11.03, 12.59, 11.44, 11.86, 5.57, 3.31]
+var wind_rose_data_m12 = {} 
+wind_rose_data_m12.month = 12 
+wind_rose_data_m12.max_p = 16.0
+wind_rose_data_m12.data = [3.48, 2.18, 2.5, 1.94, 3.83, 3.97, 4.84, 4.26, 8.93, 11.42, 15.16, 13.21, 13.82, 6.41, 4.05]
+
+var hi_res_pdf_data = {} 
+hi_res_pdf_data = {} 
+hi_res_pdf_data.data = [3.19, 5.63, 7.5, 8.77, 9.46, 9.6, 9.28, 8.6, 7.69, 6.65, 5.57, 4.53, 3.59, 2.76, 2.07, 1.52, 1.08, 0.76, 0.51, 0.34, 0.22, 0.14, 0.09, 0.05]
+hi_res_pdf_data.V_range = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+hi_res_pdf_data.pdf_mask = true
+hi_res_pdf_data.font_1 = 18
+
+var hi_res_data_quality = {} 
+hi_res_data_quality.type = "hi_res_"
+hi_res_data_quality.years = [1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
+hi_res_data_quality.quality = [100.0, 100.0, 100.0, 100.0, 99.96, 99.98, 100.0, 94.0, 99.92, 98.2, 99.42, 98.29, 90.94, 94.59, 79.8, 92.07, 89.49, 90.4, 97.07, 99.72, 99.91, 99.15, 100.0, 99.64, 100.0, 99.96, 99.93, 99.25]
+hi_res_data_quality.ymin = 79.8
+
+
+var hi_res_monthly_v_ave = {} 
+hi_res_monthly_v_ave.m_v_ave = [8.73, 8.11, 7.18, 5.9, 5.62, 5.43, 5.76, 5.3, 5.72, 6.88, 7.55, 8.53] 
+hi_res_monthly_v_ave.m_v_std_plus = [11.03, 10.4, 9.24, 7.45, 7.08, 6.88, 7.23, 6.73, 7.34, 8.7, 9.47, 10.65] 
+hi_res_monthly_v_ave.m_v_std_minus = [6.42, 5.81, 5.12, 4.35, 4.15, 3.97, 4.29, 3.87, 4.11, 5.06, 5.62, 6.41] 
+hi_res_monthly_v_ave.m_v_max = 13.24 
+
+var hi_res_hour_v_ave = {} 
+hi_res_hour_v_ave.hour_v_ave = [7.08, 7.05, 7.03, 7.0, 6.97, 6.87, 6.72, 6.54, 6.38, 6.24, 6.16, 6.14, 6.16, 6.17, 6.23, 6.33, 6.47, 6.68, 6.88, 7.04, 7.09, 7.13, 7.12, 7.11] 
+hi_res_hour_v_ave.std_v_minus = [5.2, 5.17, 5.14, 5.12, 5.08, 4.96, 4.78, 4.59, 4.44, 4.32, 4.24, 4.23, 4.24, 4.26, 4.32, 4.42, 4.57, 4.78, 4.99, 5.15, 5.21, 5.25, 5.25, 5.23] 
+hi_res_hour_v_ave.std_v_plus = [8.95, 8.93, 8.91, 8.89, 8.86, 8.78, 8.65, 8.49, 8.32, 8.17, 8.07, 8.05, 8.07, 8.08, 8.14, 8.25, 8.37, 8.58, 8.77, 8.92, 8.97, 9.0, 8.99, 8.98] 
+hi_res_hour_v_ave.hour_v_max = 7.13 
+var last_check = "2026-11-07" 

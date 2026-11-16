@@ -1,0 +1,59 @@
+var owd_email = "info@openwinddata.com"
+
+var site_data = {} 
+site_data.number = "00998";
+site_data.site = "Dobel";
+site_data.land = "Baden-Württemberg";
+site_data.map_site = "<object type=\"text/html\" class=\"site_map\" data=\"../../miniMaps/dashboard_map_00998.html\")></object>";
+site_data.rank = "<script>document.write(data_check.s00998[1]);<\/script>";
+site_data.years = "2.0";
+site_data.years10min = "0";
+site_data.last = "1951-12-31";
+site_data.last_update = "2026-11-07";
+site_data.c_p = "8.79";
+site_data.v_ave = "3.41";
+site_data.prevailing_wind_dir = "0";
+site_data.lat = "48.7943";
+site_data.lon = "8.489";
+site_data.gmap_link = "http://www.google.com/maps/place/48.7943,8.489";
+
+var meas_height = {} 
+meas_height.year_start = ["07/1977", "07/1984", "07/1996"]
+meas_height.year_end = ["07/1984", "07/1996", "12/2010"]
+meas_height.h_m = [3.0, 3.0, 10.0]
+
+var base_production = {} 
+base_production.turbine = ["S", "M", "L"]
+base_production.c_p = [5.35, 7.68, 8.79]
+base_production.AEP = ["4,689", "1,008,847", "2,664,648"]
+base_production.P_R = [10, 1500, 3460]
+
+var base_v_ave = {} 
+base_v_ave.type = "base_"
+base_v_ave.turbine = ["S", "M", "L"]
+base_v_ave.h_h = [30, 80, 100]
+base_v_ave.year = [1950, 1951]
+base_v_ave.h_m = [3.45, 3.37]
+base_v_ave.S = [4.17, 4.06]
+base_v_ave.M = [4.81, 4.69]
+base_v_ave.L = [4.95, 4.83]
+
+var wind_rose_data_m0 = {} 
+wind_rose_data_m0.month = 0 
+wind_rose_data_m0.max_p = 0.0
+wind_rose_data_m0.data = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+var base_pdf_data = {} 
+base_pdf_data = {} 
+base_pdf_data.data = [8.55, 12.91, 14.71, 14.5, 12.93, 10.65, 8.19, 5.93, 4.07, 2.65, 1.64, 0.97, 0.55, 0.3, 0.15, 0.08, 0.04, 0.02, 0.01, 0.0, 0.0, 0.0, 0.0, 0.0]
+base_pdf_data.V_range = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+base_pdf_data.pdf_mask = false
+base_pdf_data.font_1 = 18
+
+var base_data_quality = {} 
+base_data_quality.type = "base_"
+base_data_quality.years = [1950]
+base_data_quality.quality = [100.0]
+base_data_quality.ymin = 100.0
+
+var last_check = "2026-11-07" 
